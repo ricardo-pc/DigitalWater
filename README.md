@@ -62,5 +62,64 @@ This repository is organized as follows:
 - `requirements.txt`: Dependencies required for the project.
 - `README.md`: The main project documentation (this file).
 
+## Usage
+
+Follow these steps to explore and use the project:
+
+---
+### **1. Clone the Repository**
+I encourage to use Google Colab instead of running locally, since the project uses tensorflow. If you do want to run locally, start by cloning the repository to your local machine:
+```bash
+git clone https://github.com/ricardo-pc/DigitalWater
+cd DigitalWater
+```
+
+### **2. Set Up the Environment**
+Install the required dependencies using the requirements.txt file:
+```bash
+pip install -r requirements.txt
+```
+### **3. Run Locally**
+
+### **4. (Preferred Method) Running on Google Colab**
+You can use the provided Google Colab notebooks for cloud-based execution:
+- Open the links below:
+  - [LSTM Model for Water Demand Forecasting (Daily Frequency)](https://drive.google.com/file/d/13yPnbwGNcaFmu-ZtK3e1szrSs9KpPFuU/view?usp=sharing)
+  - [LSTM Model for Water Dam Capacity Forecasting (Daily Frequency)](https://drive.google.com/file/d/1603DqfzgQ1hrN4icgQF8LZZEbKpwE5Gm/view?usp=sharing)
+- Duplicate the notebook.
+- Connect to a Colab runtime.
+- Execute the cells sequentially.
+
+
+## Data
+
+This project relies on datasets stored in the `data/` directory. Below are the details and instructions for using the data:
+
+---
+
+### **1. Included Datasets**
+The following datasets are included in the repository:
+- **`daily-water-demand-wrangled-data.csv`**: Ready-to-use wrangled data for the water demand model.  
+  - alternatively you can wrangle your own dataset using the raw data.
+- **`water-dam-C-capacity-data.csv`**: Ready-to-use wrangled data fro the water dam capacity model.
+- **`dictionary.pdf`**: Data dictionary explaining each field.
+
+---
+
+### **2. Data Sources**
+If additional data is required, you can obtain it from the following sources:
+- [CONAGUA](https://sih.conagua.gob.mx): Water Dam Capacity data.
+
+
+---
+
+### **3. Data Format**
+Ensure your custom datasets meet the following format requirements:
+- **File Type**: CSV, JSON, or Excel (`.xlsx`).
+- **Encoding**: UTF-8 for compatibility.
+
+
+
+
 
 
