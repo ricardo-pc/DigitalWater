@@ -39,4 +39,7 @@ For the Atos IT Challenge 2020, the following was included:
 ### 🎥 **Promotional Video**
 - brief explanation of solution and front-end platform
 
+## Project Structure
+
+your-repo-name/ ├── data/ # Datasets and raw data used in the project │ ├── sample_data.csv # Example dataset for testing and demonstration │ └── README.md # Information about the datasets ├── notebooks/ # Jupyter Notebooks for analysis and modeling │ ├── data_analysis.ipynb # Notebook for data exploration │ ├── model_training.ipynb # Notebook for training the model │ └── README.md # Details about the notebooks ├── docs/ # Documentation for project context and methodology │ ├── project_overview.md # Detailed project overview │ └── methodology.md # Description of the approach and methods used ├── scripts/ # Python scripts for preprocessing and automation │ ├── preprocess_data.py # Script for data preprocessing │ ├── train_model.py # Script for model training │ └── utils.py # Utility functions ├── requirements.txt # Dependencies required for the project ├── LICENSE # License information ├── README.md # Project README └── .gitignore # Files and folders to be ignored by Git
 
