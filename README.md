@@ -84,8 +84,8 @@ pip install -r requirements.txt
 ### **4. (Preferred Method) Running on Google Colab**
 You can use the provided Google Colab notebooks for cloud-based execution:
 - Open the links below:
-  - [LSTM Model for Water Demand Forecasting (Daily Frequency)](https://drive.google.com/file/d/13yPnbwGNcaFmu-ZtK3e1szrSs9KpPFuU/view?usp=sharing)
-  - [LSTM Model for Water Dam Capacity Forecasting (Daily Frequency)](https://drive.google.com/file/d/1603DqfzgQ1hrN4icgQF8LZZEbKpwE5Gm/view?usp=sharing)
+  - [LSTM Model for Water Demand Forecasting (Daily Frequency)](https://colab.research.google.com/drive/13yPnbwGNcaFmu-ZtK3e1szrSs9KpPFuU?authuser=1)
+  - [LSTM Model for Water Dam Capacity Forecasting (Daily Frequency)](https://colab.research.google.com/drive/1603DqfzgQ1hrN4icgQF8LZZEbKpwE5Gm?authuser=1#scrollTo=Tkmdl0SpUlLT)
 - Duplicate the notebook.
 - Connect to a Colab runtime.
 - Execute the cells sequentially.
