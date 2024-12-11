@@ -37,7 +37,7 @@ For the Atos IT Challenge 2020, the following was included:
 - reported in summary reports to understand the data's context
 
 ### 🎥 **Promotional Video**
-- brief explanation of solution and front-end platform
+- brief explanation of solution and front-end platform - [Youtube](https://youtu.be/AiQcQ7dyW38)
 
 ## Project Structure
 
