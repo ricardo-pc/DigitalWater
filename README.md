@@ -46,23 +46,21 @@ For the Atos IT Challenge 2020, the following was included:
 This repository is organized as follows:
 
 - `data/`: Contains datasets and raw data.
-  - `raw data`: Contains all the raw data received by SADM 
+  - `raw data`: Contains all the raw data received by SADM.
   - `weather data`: Contains weather data extracted from DarkSky API.
-  - `wrangled data`: Contains wrangled data for the daily water demand model.
+  - `wrangled data`: Contains wrangled data for the daily water demand model and fields dictionary.
 - `notebooks/`: Jupyter Notebooks for analysis and modeling.
-  - `data_analysis.ipynb`: Notebook for data exploration.
-  - `model_training.ipynb`: Notebook for training the model.
-  - `README.md`: Details about the notebooks.
+  - `LSTM_daily_water_demand_2020.ipynb`: Notebook with water demand forecasting, LSTM model.
+  - `water_dam_capacity.ipynb`: Notebook with water capacity forecasting, LSTM model.
 - `docs/`: Documentation for project context and methodology.
-  - `project_overview.md`: Detailed project overview.
-  - `methodology.md`: Description of the approach and methods used.
-- `scripts/`: Python scripts for preprocessing and automation.
-  - `preprocess_data.py`: Script for data preprocessing.
-  - `train_model.py`: Script for model training.
-  - `utils.py`: Utility functions.
+  - `technical-report-2020.pdf`: Technical Report submitted for evaluation.
+  - `Understanding Digital Water Summary.pdf`: Presentation used in the competition.
+  - `Understanding Digital Water - Technical Details.pdf`: Context of Monterrey's Water Network and additional details.
+- `outputs/`: Contains outputs from both models.
+  - `daily-water-demand-output.csv`: Output file with forecasted values.
+  - `daily-water-capacity-output.csv`: Output file with forecasted values.
 - `requirements.txt`: Dependencies required for the project.
-- `LICENSE`: License information.
 - `README.md`: The main project documentation (this file).
-- `.gitignore`: Specifies files and folders to exclude from version control.
+
 
 
