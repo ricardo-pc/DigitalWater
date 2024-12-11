@@ -4,11 +4,39 @@ Our solution, **Digital Water**, was created and presented for the Atos IT Chall
 
 ## Table of Contents
 1. [About the Project](#about-the-project)
-2. [Getting Started](#getting-started)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+2. [Features](#features)
+3. [Project Structure](#project-structure)
+4. [Usage](#usage)
+5. [Data](#data)
+
+
+## About the Project
+
+This project explores the application of machine learning to improve water resource management. Its goal is to forecast water demand, which refers to the amount a city needs within a given period, alongside the available water capacity from its sources. While this analysis represents a mass balance and does not account for losses from the source to the final point, we recognize these losses as a significant factor.
+
+Being a native of Monterrey, Nuevo León, México, I focused this project on my home state, using real data provided by the official utility, **Agua y Drenaje de Monterrey**. At the time, we were unaware that Monterrey was on the brink of a severe water crisis, which began just two years after the project’s completion. Our model hinted at this possibility, but we either did not believe it or did not want to.
+
+The water crisis in Monterrey was devastating. Only after experiencing the constant anxiety of opening a faucet, unsure if water would flow, do you truly value something that always seemed guaranteed. Ironically, in one of Latin America’s wealthiest cities, where gleaming skyscrapers and high per capita income symbolize progress, all five million residents were reduced to just a few liters of water daily for nearly two years. Read more about Monterrey's Water Crisis: [Harvard University GSD](https://www.gsd.harvard.edu/2024/02/from-drought-to-flood-solutions-for-extreme-climate-events-in-monterrey-mexico/), [AquaTech](https://www.aquatechtrade.com/news/urban-water/mexico-water-conservation-pressure-regulation)
 
 
 
-Solution presented at the Atos IT Challenge 2020. Machine Learning models to analyze actual and forecasted water demand at the city level, using real data from the city’s network of water sources.
+## Features
+
+For the Atos IT Challenge 2020, the following was included:
+### ☁️ **Google Colab Notebooks**
+  - LSTM model to predict daily water demand
+  - LSTM model to predict daily water capacity
+
+### 📊 **Interactive Front-end Platform (no longer available after 01/2021)**
+  - Hosted on Heroku
+
+### 📂 **Well-Documented Datasets**
+- datasets with real data, from the official source (SADM)
+
+### 🔗 **Research of Monterrey's Water Network**
+- reported in summary reports to understand the data's context
+
+### 🎥 **Promotional Video**
+- brief explanation of solution and front-end platform
+
+
