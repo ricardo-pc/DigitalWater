@@ -46,8 +46,9 @@ For the Atos IT Challenge 2020, the following was included:
 This repository is organized as follows:
 
 - `data/`: Contains datasets and raw data.
-  - `sample_data.csv`: Example dataset for testing and demonstration.
-  - `README.md`: Information about the datasets.
+  - `raw data`: Contains all the raw data received by SADM 
+  - `weather data`: Contains weather data extracted from DarkSky API.
+  - `wrangled data`: Contains wrangled data for the daily water demand model.
 - `notebooks/`: Jupyter Notebooks for analysis and modeling.
   - `data_analysis.ipynb`: Notebook for data exploration.
   - `model_training.ipynb`: Notebook for training the model.
